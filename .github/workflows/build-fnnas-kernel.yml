@@ -13,9 +13,10 @@ on:
       fnnas_base_version:
         description: "Select fnnas base image version"
         required: false
-        default: "amlogic_453"
+        default: "amlogic_470"
         type: choice
         options:
+          - amlogic_470
           - amlogic_453
           - amlogic_389
           - amlogic_338
